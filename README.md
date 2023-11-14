@@ -1,3 +1,8 @@
+necessaries: gcc, SDL2
+sdl2 command: sudo apt-get install libsdl2*
+
+game running command:::
+
 git clone https://github.com/puHoraira/DualGameDemo
 
 cd DualGameDemo
