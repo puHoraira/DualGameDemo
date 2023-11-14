@@ -27,7 +27,7 @@ int callFunction()
                       BLANK, BLANK, BLANK};
         int winner;
         current_player = X;
-
+        // maiking a window for chess game
         if (SDL_Init(SDL_INIT_VIDEO) != 0)
         {
             printf("Error initializing SDL: %s\n", SDL_GetError());
@@ -96,10 +96,12 @@ int callFunction()
         SDL_DestroyWindow(window);
         SDL_Quit();
     }
+    // making a window for chess
     else if (selector == chess)
     {
         working();
     }
+    // credit page navigation
     else if (selector == credit)
     {
         int m = creditpagesec();
