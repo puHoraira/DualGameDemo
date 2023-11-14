@@ -14,6 +14,7 @@ SDL_Window *xwindow = NULL;
 SDL_Renderer *xrenderer = NULL;
 SDL_Texture *xtexturer = NULL;
 char *x_font = "Monaco.ttf";
+
 void start(SDL_Renderer *xrenderer)
 {
     /* Clear the screen with selected color */
@@ -48,7 +49,7 @@ void start(SDL_Renderer *xrenderer)
     SDL_DestroyTexture(workingTexture);
     TTF_CloseFont(monaco);
 }
-
+// initial
 void initSDLs()
 {
     SDL_Init(SDL_INIT_VIDEO);
@@ -56,7 +57,7 @@ void initSDLs()
     xrenderer = SDL_CreateRenderer(xwindow, -1, SDL_RENDERER_ACCELERATED);
     TTF_Init();
 }
-
+// chess game working
 int working()
 {
     initSDLs();
