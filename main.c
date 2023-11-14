@@ -15,6 +15,8 @@
 
 int main(int argc, char *argv[])
 {
+    // direct calling a function from copyofMain.c
+
     callFunction();
     return 0;
 }
