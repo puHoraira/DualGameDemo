@@ -1,5 +1,6 @@
 necessaries: gcc, SDL2
-sdl2 command: sudo apt-get install libsdl2*
+
+sdl2 setup command: sudo apt-get install libsdl2*
 
 game running command:::
 
